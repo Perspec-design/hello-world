@@ -1,0 +1,10 @@
+{
+    "workbench.editor.autoLockGroups": {
+        "jupyter-notebook": true,
+        "repl": true,
+        "workbench.editors.gettingStartedInput": true
+    },
+    "workbench.editor.defaultBinaryEditor": "jupyter-notebook",
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.centeredLayoutFixedWidth": true
+}
