@@ -1,0 +1,19 @@
+{
+  "name": "Node.js",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-14",
+  "postCreateCommand": "npm install",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint"
+  ],
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Application",
+      "onAutoForward": "notify"
+    }
+  }
+}
